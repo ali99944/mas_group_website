@@ -8,7 +8,7 @@ export default function ImmersiveHero() {
   return (
     <section className="min-h-screen bg-container relative">
       <BlueprintGrid />
-      <div className="container mx-auto px-4 py-8 flex items-center absolute z-20">
+      <div className="container mx-auto px-4 py-8 flex items-center relative z-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
           {/* Left side - Image */}
           <div className="relative">
