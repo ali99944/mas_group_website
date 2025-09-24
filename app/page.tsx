@@ -9,6 +9,10 @@ import ServicesCategoriesSection from "@/components/services-categories-section"
 import StorySection from "@/components/story-section"
 import TestimonialsSection from "@/components/testimonials-section"
 import WhyMasSection from "@/components/why-mas-section"
+import BentoGridShowcase from "@/features/common/components/bento-grid"
+import CalculatorBanner from "@/features/common/components/calculator-banner"
+import BeforeAfter from "@/features/landing/components/before-after"
+import InspirationGallery from "@/features/landing/components/inspiration-gallery"
 import { useState, useEffect } from "react"
 
 
@@ -47,7 +51,14 @@ export default function HomePage() {
       <ImmersiveFooter /> */}
       <Layout>
         <ImmersiveHero />
+        <CalculatorBanner />
+        <BentoGridShowcase />
         <StorySection />
+        <InspirationGallery />
+        <BeforeAfter
+            beforeImage="https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=2070&auto=format&fit=crop"
+            afterImage="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop"
+          />
         <ServicesCategoriesSection />
         <WhyMasSection />
         <CraftsmanshipSection />

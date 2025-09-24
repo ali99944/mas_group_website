@@ -42,9 +42,9 @@ export function FaqsComponent({ faqs }: FaqsComponentProps) {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold mb-4">الأسئلة الشائعة</h2>
+          <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            إليك إجابات على بعض الأسئلة الشائعة حول خدمات الاستشارات التي نقدمها
+            Take a look at answers to some frequently asked questions about our interior finishing services
           </p>
         </motion.div>
 
@@ -61,7 +61,7 @@ export function FaqsComponent({ faqs }: FaqsComponentProps) {
               <button
                 onClick={() => toggleFaq(index)}
                 className={`w-full flex items-center justify-between p-4 rounded cursor-pointer text-right transition-colors ${
-                  openIndex === index ? "bg-amber-50 text-amber-900" : "bg-white text-gray-800"
+                  openIndex === index ? "bg-primary/10 text-primary" : "bg-white text-gray-800"
                 }`}
               >
                 <span className="font-medium">{faq.question}</span>

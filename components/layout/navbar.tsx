@@ -24,6 +24,7 @@ export default function ImmersiveNavigation() {
     { id: "services", label: "Services", icon: Award, href: "/services" },
     { id: "projects", label: "Projects", icon: Briefcase, href: "/projects" },
     { id: "contact", label: "Contact", icon: Phone, href: "/contact" },
+    { id: "FAQ", label: "FAQ", icon: Phone, href: "/faq" },
   ]
 
 
